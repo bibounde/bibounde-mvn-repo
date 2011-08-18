@@ -14,6 +14,7 @@
 		<vaadin.version>6.6.0</vaadin.version>
 		<gwt.version>2.2.0</gwt.version>
 		<gwt.plugin.version>2.2.0</gwt.plugin.version>
+		<scm.add.files>${maven.scm.includes}</scm.add.files>
 	</properties>
 
 	<repositories>
@@ -190,6 +191,9 @@
 				<configuration>
 				    <basedir>target/checkout</basedir>
 					<connectionUrl>scm:git:git@github.com:bibounde/bibounde-mvn-repo.git</connectionUrl>
+					<developerConnectionUrl>scm:git:git@github.com:bibounde/bibounde-mvn-repo.git</developerConnectionUrl>
+					<message>Deployed by jenkins (build ${BUILD_NUMBER})</message>
+				    <includes>${scm.add.files}</includes>
 				</configuration>
 			</plugin>
 		</plugins>
