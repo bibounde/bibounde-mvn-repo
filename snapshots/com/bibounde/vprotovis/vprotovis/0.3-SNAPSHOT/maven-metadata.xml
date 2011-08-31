@@ -2,12 +2,11 @@
 <metadata>
   <groupId>com.bibounde.vprotovis</groupId>
   <artifactId>vprotovis</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.3-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>0.2-SNAPSHOT</version>
-      <version>0.3-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20110831143017</lastUpdated>
   </versioning>
 </metadata>
